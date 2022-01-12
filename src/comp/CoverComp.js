@@ -1,5 +1,8 @@
 import React from "react";
-import btc from "../assets/btc.jpg";
+import btc from "../assets/btc.png";
+import eth from "../assets/eth.png";
+import bnb from "../assets/bnb.png";
+import ada from "../assets/ada.png";
 import "../App.css";
 
 const CoverComp = () => {
@@ -17,7 +20,7 @@ const CoverComp = () => {
                         <div className="comp_top_head">
                             <img src={btc} alt="btc" />
                             <div>
-                                <h2>BND/BUSD</h2>
+                                <h2>BTC/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
                             </div> 
                             <p>1.17%</p>
@@ -32,9 +35,9 @@ const CoverComp = () => {
                    <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src={btc} alt="btc" />
+                            <img src={bnb} alt="bnb" />
                             <div>
-                                <h2>BND/BUSD</h2>
+                                <h2>BNB/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
                             </div> 
                             <p>1.17%</p>
@@ -49,9 +52,9 @@ const CoverComp = () => {
                    <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src={btc} alt="btc" />
+                            <img src={eth} alt="eth" />
                             <div>
-                                <h2>BND/BUSD</h2>
+                                <h2>ETH/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
                             </div> 
                             <p>1.17%</p>
@@ -66,9 +69,9 @@ const CoverComp = () => {
                    <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src={btc} alt="btc" />
+                            <img src={ada} alt="ada" />
                             <div>
-                                <h2>BND/BUSD</h2>
+                                <h2>ADA/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
                             </div> 
                             <p>1.17%</p>

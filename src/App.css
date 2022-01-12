@@ -93,9 +93,9 @@
 .grid_comp {
     margin: 16px;
     background-color: #fff;
-    box-shadow: 5px 5px 5px -7px #ccc;
+    box-shadow: 0px 0px 8px -5px #ccc;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .comp_top_head {
@@ -107,6 +107,12 @@
 
 .comp_top_head>img {
     width: 40px;
+}
+
+.comp_top_head>p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #666;
 }
 
 .comp_top_head>div>h2 {
