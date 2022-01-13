@@ -23,12 +23,12 @@ const CoverComp = () => {
                                 <h2>BTC/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
                             </div> 
-                            <p>1.17%</p>
+                            <p>2.68%</p>
                         </div>
                     </div>
                     <div className="comp_middle">
-                        <h1>304.48</h1>
-                        <p>$304.41</p>
+                        <h1 className="color_green">43.673,44</h1>
+                        <p>$43.673,000</p>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ const CoverComp = () => {
                         </div>
                     </div>
                     <div className="comp_middle">
-                        <h1>304.48</h1>
+                        <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const CoverComp = () => {
                         </div>
                     </div>
                     <div className="comp_middle">
-                        <h1>304.48</h1>
+                        <h1 className="color_green">304.48</h1>
                         <p>$304.41</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const CoverComp = () => {
                         </div>
                     </div>
                     <div className="comp_middle">
-                        <h1>304.48</h1>
+                        <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const CoverComp = () => {
 
             </div>
             <div className="cover_bottom">
-
+                <h1>Join Our Community</h1>
             </div>
 
         </div>
