@@ -3,6 +3,7 @@ import btc from "../assets/btc.png";
 import eth from "../assets/eth.png";
 import bnb from "../assets/bnb.png";
 import ada from "../assets/ada.png";
+import arrowR from "../assets/arrowR.png";
 import "../App.css";
 
 const CoverComp = () => {
@@ -30,12 +31,15 @@ const CoverComp = () => {
                         <h1 className="color_green">43.673,44</h1>
                         <p>$43.673,000</p>
                     </div>
+                    <div className="comp_bottom">
+                        <img src={arrowR} alt="arrowR"/>
+                    </div>
                 </div>
-
+                    
                    <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src={bnb} alt="bnb" />
+                            <img src={bnb} alt="bnb"/>
                             <div>
                                 <h2>BNB/USD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
@@ -46,6 +50,9 @@ const CoverComp = () => {
                     <div className="comp_middle">
                         <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
+                    </div>
+                    <div className="comp_bottom">
+                        <img src={arrowR} alt="arrowR"/>
                     </div>
                 </div>
 
@@ -64,6 +71,9 @@ const CoverComp = () => {
                         <h1 className="color_green">304.48</h1>
                         <p>$304.41</p>
                     </div>
+                    <div className="comp_bottom">
+                        <img src={arrowR} alt="arrowR"/>
+                    </div>
                 </div>
 
                    <div className="grid_comp">
@@ -81,14 +91,52 @@ const CoverComp = () => {
                         <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
                     </div>
+                    <div className="comp_bottom">
+                        <img src={arrowR} alt="arrowR"/>
+                    </div>
                 </div>
 
 
             </div>
             <div className="cover_bottom">
-                <h1>Join Our Community</h1>
-            </div>
+                <h1>Market trend</h1>
 
+                <div className="price_table">
+                    <div className="price_header">
+                        <div className="name">
+                            <p>Name</p>
+                        </div>
+                        <div className="name">
+                            <p>Last Price</p>
+                        </div>
+                        <div className="name">
+                            <p>24h Change</p>
+                        </div>
+                        <div className="name">
+                            <p>Markets</p>
+                        </div>
+                    </div>
+
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src={btc} alt="btc" />
+                            <h2>BTC</h2>
+                            <p>BTC</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$43.673</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>43.673%</h4>
+                        </div>
+                        <div className="coin_data">
+                            <p>Markets</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     )
 }

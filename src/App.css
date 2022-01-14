@@ -118,7 +118,6 @@
 .comp_top_head>p {
     font-size: 0.8rem;
     font-weight: 400;
-    color: #666;
 }
 
 .comp_top_head>div>h2 {
@@ -137,12 +136,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-size: cover;
+    margin: 5PX;
 }
 
 .comp_middle>h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    position: relative;
+    top: 2px;
 }
 
 .comp_middle>p {
@@ -151,6 +152,22 @@
     color: #666;
     margin-left: 8px;
 }
+
+.comp_bottom>img{
+    color: #dea30d;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: auto;
+    display:block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
 
 .color_green {
     color: #00a851;
@@ -165,8 +182,24 @@
     background-color: #f8f8f8;
 }
 
+
 .cover_bottom > h1 {
     font-size: 2rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.price_header {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name > p{
+    font-size: 1rem;
     font-weight: bold;
     color: #666;
 }
