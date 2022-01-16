@@ -4,6 +4,7 @@ import eth from "../assets/eth.png";
 import bnb from "../assets/bnb.png";
 import ada from "../assets/ada.png";
 import arrowR from "../assets/arrowR.png";
+import graph from "../assets/graph.png";
 import "../App.css";
 
 const CoverComp = () => {
@@ -115,22 +116,28 @@ const CoverComp = () => {
                         <div className="name">
                             <p>Markets</p>
                         </div>
+                        <div className="name">
+                            <p>Buy</p>
+                        </div>
                     </div>
 
                     <div className="price_header">
                         <div className="coin_data">
-                            <img src={btc} alt="btc" />
+                            <img src={btc} alt="btc"/>
                             <h2>BTC</h2>
-                            <p>BTC</p>
+                            <p> BTC</p>
                         </div>
                         <div className="coin_data">
-                            <h3>$43.673</h3>
+                            <h3>$301.63</h3>
                         </div>
                         <div className="coin_data">
-                            <h4>43.673%</h4>
+                            <h4>0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph"/>
                         </div>
                         <div className="coin_data">
-                            <p>Markets</p>
+                            <button>Buy</button>
                         </div>
                     </div>
 

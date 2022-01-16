@@ -198,8 +198,42 @@
     margin-top: 20px;
 }
 
-.name > p{
+.name>p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.coin_data>img{
+    width: 30px;
+}
+
+.coin_data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coin_data>h2{
     font-size: 1rem;
     font-weight: bold;
     color: #666;
+    margin-left: 8px;
+}
+
+.coin_data>h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.coin_data>p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 8px;
+}
+
+.coin_data_graph>img{
+    width: 80%;
 }
