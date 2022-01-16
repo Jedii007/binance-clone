@@ -85,7 +85,7 @@
 .cover_grid {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-    padding: 16px;
+    padding: 5px;
 }
 
 .cover_middle {
@@ -99,9 +99,9 @@
 .grid_comp {
     margin: 16px;
     background-color: #fff;
-    box-shadow: 0px 0px 8px -5px #ccc;
+    box-shadow: 5px 5px 5px -7px #ccc;
     padding: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .comp_top_head {
