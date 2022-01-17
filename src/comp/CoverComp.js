@@ -141,9 +141,72 @@ const CoverComp = () => {
                         </div>
                     </div>
 
-                </div>
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src={eth} alt="eth"/>
+                            <h2>ETH</h2>
+                            <p> ETH</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.63</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph"/>
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
 
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src={bnb} alt="bnb"/>
+                            <h2>BNB</h2>
+                            <p> BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.63</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph"/>
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src={ada} alt="ada"/>
+                            <h2>ADA</h2>
+                            <p>ADA</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.63</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph"/>
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div className="bottom_line">
+                <h2>View More Markets</h2>
+                <p>dfdljrfsjkdkrfgjkdfgsbkfdjgsdjklgsljkdfgblsjdfgbsjkdfgbnlk</p>
+            </div>
+
         </div>
     )
 }

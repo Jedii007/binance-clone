@@ -194,8 +194,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    cursor: pointer;
+    padding: 6px;
     margin-top: 20px;
+}
+
+.price_header:hover {
+    background-color: #fff;
+    
 }
 
 .name>p{
@@ -215,7 +221,7 @@
 }
 
 .coin_data>h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #666;
     margin-left: 8px;
@@ -228,12 +234,53 @@
 }
 
 .coin_data>p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #000;
     margin-left: 8px;
 }
 
+.coin_data>h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f03;
+}
+
 .coin_data_graph>img{
     width: 80%;
+}
+
+.coin_data>button{
+    padding: 10px 16px 10px 16px;
+    font-size: 1rem;
+    background-color: #ccc;
+    outline-width: 0px;
+    border:0px;
+    color: #000;
+    cursor: pointer;
+}
+
+.bottom_line{
+    background-color: #f8f8f8;
+    padding: 16px;
+}
+
+.bottom_line>h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+    margin: 16px;
+    text-decoration: underline;
+}
+
+.bottom_line>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    text-align: left;
+    cursor: pointer;
+    margin: 16px;
+
 }
