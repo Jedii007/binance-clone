@@ -346,3 +346,27 @@
 }
 
 
+
+.pro_grid {
+    margin: 10rem;
+}
+
+.pro_grid_comp{
+    position: relative;
+    left: -160px;
+}
+
+.pro_grid_comp>h1{
+    font-weight: 400;
+    color:#222;
+    cursor: pointer;
+}
+
+.pro_grid_comp>p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 10px;
+}
+
+
