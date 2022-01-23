@@ -347,6 +347,10 @@
 
 
 
+
+
+
+
 .pro_grid {
     margin: 10rem;
 }
@@ -369,4 +373,12 @@
     margin-top: 10px;
 }
 
+.pro_grid_comp>img{
+    margin: 4rem;
+    width: 70%;
+    height: 500px;
+    border-radius: 8px;
+    position: relative;
+    right: -500px;
+}
 

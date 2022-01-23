@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../assets/logo.jpg";
 import "../App.css";
 
 const ProductComp = () => {
@@ -20,12 +21,13 @@ const ProductComp = () => {
 
             <div className="pro_grid">
                 <div className="pro_grid_comp">
-                    <h1>Trade seamlessly with our Spot</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vestibulum vulputate nulla sit amet ante dictum egestas. 
-                    Etiam ultricies, erat sit amet bibendum tristique, velit elit tristique nisi, 
-                    a tincidunt erat mauris non tortor. Duis ut nisi diam. Maecenas eu elementum ipsum, 
-                    eu rutrum lectus.</p>
+                    <h1>Trade. Anywhere.</h1>
+                    <p> Compatible with multiple devices, 
+                    start trading with safety and convenience.</p>
+                </div>
+                <div className="pro_grid_comp">
+                    <img src={logo} alt="logo"/>
+                    <p>Compatible with multiple devices</p>
                 </div>
             </div>
         </div>
