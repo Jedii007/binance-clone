@@ -20,7 +20,6 @@ const BlogComp = () => {
             </div>
 
             <div className="blog_grid">
-
                 <div className="grid_comp">
                     <img src={btc} alt="btc"/>
                     <p>Buy Crypto Today</p>

@@ -3,7 +3,6 @@ import btc from "../assets/btc.png";
 import eth from "../assets/eth.png";
 import bnb from "../assets/bnb.png";
 import ada from "../assets/ada.png";
-import arrowR from "../assets/arrowR.png";
 import graph from "../assets/graph.png";
 import "../App.css";
 
@@ -32,9 +31,7 @@ const CoverComp = () => {
                         <h1 className="color_green">43.673,44</h1>
                         <p>$43.673,000</p>
                     </div>
-                    <div className="comp_bottom">
-                        <img src={arrowR} alt="arrowR"/>
-                    </div>
+                    
                 </div>
                     
                    <div className="grid_comp">
@@ -52,9 +49,7 @@ const CoverComp = () => {
                         <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
                     </div>
-                    <div className="comp_bottom">
-                        <img src={arrowR} alt="arrowR"/>
-                    </div>
+                    
                 </div>
 
                    <div className="grid_comp">
@@ -72,9 +67,7 @@ const CoverComp = () => {
                         <h1 className="color_green">304.48</h1>
                         <p>$304.41</p>
                     </div>
-                    <div className="comp_bottom">
-                        <img src={arrowR} alt="arrowR"/>
-                    </div>
+                    
                 </div>
 
                    <div className="grid_comp">
@@ -92,9 +85,7 @@ const CoverComp = () => {
                         <h1 className="color_red">304.48</h1>
                         <p>$304.41</p>
                     </div>
-                    <div className="comp_bottom">
-                        <img src={arrowR} alt="arrowR"/>
-                    </div>
+                    
                 </div>
 
 

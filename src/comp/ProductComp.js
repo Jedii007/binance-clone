@@ -18,17 +18,20 @@ const ProductComp = () => {
                     <button className="bg_color">Binance Launchpad</button>
                 </div>
             </div>
-
-            <div className="pro_grid">
+     
+            <div className="blog_grid">
                 <div className="pro_grid_comp">
                     <h1>Trade. Anywhere.</h1>
-                    <p> Compatible with multiple devices, 
-                    start trading with safety and convenience.</p>
+                    <p> Am increasing at contrasted in favourable he considered astonished. 
+                    As if made held in an shot. By it enough to valley desire do. 
+                    Mrs chief great maids these which are ham match she. Abode to tried do thing maids.
+                    Doubtful disposed returned rejoiced to dashwood is so up.</p>
+                    <button>Binance Launchpad</button>
                 </div>
-                <div className="pro_grid_comp">
-                    <img src={logo} alt="logo"/>
-                    <p>Compatible with multiple devices</p>
-                </div>
+             
+            <div className="pro_grid_comp">
+                <img src={logo} alt="logo"/>
+            </div>
             </div>
         </div>
         
